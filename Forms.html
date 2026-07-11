@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms In html</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form example</h1>
+    <form action="url" method="">
+
+        <label for="f_name">First Name: </label>
+        <input type="text" placeholder="First name"
+        id="f_name"> <br/>
+        <label for="l_name">Last Name: </label>
+        <input type="text" placeholder="Last name"
+        id="l_name"><br/>
+        <label for="e_mail">Email: </label>
+        <input type="email" placeholder="Email"
+        id="e_mail"><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+
+    </form>
+    <h2>Another form example </h2>
+    <form action="">
+        <label for="">Select time:</label>
+        <input type="time"> <br>
+       <label for="">Select Date</label>
+       <input type="date">
+       <p>Gender:</p>
+  
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+    </form>
+</body>
+</html>
